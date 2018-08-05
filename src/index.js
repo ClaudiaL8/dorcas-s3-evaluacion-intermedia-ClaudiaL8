@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
 const pokemon = [
   {
@@ -78,4 +77,3 @@ const pokemon = [
 ];
 
 ReactDOM.render(<App pokemons={pokemon}/>, document.getElementById('root'));
-registerServiceWorker();

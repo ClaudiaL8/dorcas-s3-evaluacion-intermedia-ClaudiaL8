@@ -7,9 +7,9 @@ class PokemonList extends React.Component {
       <ul className="page__list">
         {this.props.pokemons.map(function (item) {
           return (
-            <div className="items__pokemon">
+            <li>
               <PokemonCard item={item} />
-            </div>
+            </li>
           );
         })}
       </ul>
